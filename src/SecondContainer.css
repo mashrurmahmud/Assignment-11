@@ -1,0 +1,21 @@
+.container-section{
+     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0.4), rgba(0,0,0,0)), url(./assets/sky.jfif);
+     height: 450px;
+     background-repeat: no-repeat;
+     
+     object-fit: cover;
+     background-size: cover;
+}
+
+
+.parent{
+    position: relative;
+     
+}
+
+.parent .child{
+    position: absolute;
+    top: 8px;
+    right: 261px;
+}
+

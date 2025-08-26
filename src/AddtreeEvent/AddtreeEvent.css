@@ -1,0 +1,8 @@
+.banner1{
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,.4), rgba(0,0,0,0)), url(../../public/tree.jpg);
+    object-fit: cover;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

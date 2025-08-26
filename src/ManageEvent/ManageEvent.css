@@ -1,0 +1,19 @@
+.border_size{
+     box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.parent4{
+    position: relative;
+}
+
+.parent4 .child4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.parent4 .edit1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

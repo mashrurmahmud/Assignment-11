@@ -1,0 +1,15 @@
+.banner{
+    background-image: linear-gradient(to right,rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,.4), rgba(0,0,0,0)),url(./assets/nature.jpg);
+    
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner .child{
+    
+    height: 100%;
+}

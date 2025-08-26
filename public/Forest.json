@@ -1,0 +1,18 @@
+{
+  "title": "Explore the Forest",
+  "description": "Discover the wonders of nature, from towering trees to hidden wildlife.",
+  "accordion": [
+    {
+      "question": "What types of trees are found in the forest?",
+      "answer": "The forest is home to oak, pine, birch, and many other species."
+    },
+    {
+      "question": "Is it safe to hike alone?",
+      "answer": "It's recommended to hike with a partner and carry a map or GPS device."
+    },
+    {
+      "question": "What wildlife might I encounter?",
+      "answer": "You may see deer, foxes, squirrels, and a variety of birds."
+    }
+  ]
+}

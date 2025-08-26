@@ -1,0 +1,16 @@
+.small_button{
+    border-top-left-radius: 50px;
+    color: white;
+    padding: 34px;
+}
+
+.parent_small{
+    position: relative;
+}
+
+.child_small{
+    position: absolute;
+    bottom: 34px;
+    right: 0;
+    
+}

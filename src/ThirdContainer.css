@@ -1,0 +1,31 @@
+.plant{
+    background-image: url(./assets/sea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    object-fit: cover;
+    position: relative;
+}
+
+.description{
+    max-width: 550px;
+    padding: 25px;
+    background-color: white;
+    
+}
+
+.plant .zero{
+    position: absolute;
+    background-color: brown;
+    color: #ffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 25px;
+    bottom: 23px;
+    right: 35px;
+    text-align: center;
+
+}

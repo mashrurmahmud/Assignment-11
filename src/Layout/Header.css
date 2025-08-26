@@ -1,0 +1,45 @@
+
+
+.add-stick ul li{
+    position: relative;
+}
+
+.add-stick ul li::after{
+    position: absolute;
+    content: '|';
+    top: 0px;
+    right: -8px;
+   
+    
+}
+
+
+.parentli{
+    position: relative;
+    width: 30%;
+   
+
+}
+
+.parentli .child{
+    position: absolute;
+    width: 100%;
+    background-color: yellowgreen;
+    padding: 20px;
+    top: 144px;
+    z-index: 1;
+    border-radius: 23px;
+    opacity: 0; 
+    visibility: hidden;
+    transition: 0.5s ease-in;
+    
+
+}
+
+.parentli:hover .child{
+    opacity: 1;
+    visibility: visible;
+    top: 47px;
+    left: -23px;
+
+}
