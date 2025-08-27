@@ -17,7 +17,7 @@ const UpComming_details = () => {
   }
 
   const handleDelete = (id) =>{
-    axios.delete(`http://localhost:3000/upComming_details/${id}`).then(data =>{
+    axios.delete(`https://my-backend-server-seven.vercel.app/upComming_details/${id}`).then(data =>{
        console.log(data?.data);
        if(data?.data.acknowledged){
            Swal.fire({

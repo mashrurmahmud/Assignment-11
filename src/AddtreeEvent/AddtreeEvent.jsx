@@ -66,7 +66,7 @@ const AddtreeEvent = () => {
         const formdata = new FormData(form);
         const formObject = Object.fromEntries(formdata.entries());
         console.log(formObject)
-        axios.post('http://localhost:3000/addetreeevent', formObject).then(data =>{
+        axios.post('https://my-backend-server-seven.vercel.app/addetreeevent', formObject).then(data =>{
             if(data?.data.acknowledged){
                 Swal.fire({
                 position: "center",

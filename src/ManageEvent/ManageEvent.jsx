@@ -18,7 +18,7 @@ const ManageEvent = ({dat}) => {
     const [form1, setForm] = useState(false);
 
     useEffect(()=>{
-        axios.get('http://localhost:3000/manage', {
+        axios.get('https://my-backend-server-seven.vercel.app/manage', {
             headers:{
                 authorization:`Bearer ${user.accessToken}`
 
@@ -72,7 +72,7 @@ swalWithBootstrapButtons.fire({
 }).then((result) => {
   if (result.isConfirmed) {
      console.log('Deleted okay');
-        axios.delete(`http://localhost:3000/upComming_details/${id}`).then(data => {
+        axios.delete(`https://my-backend-server-seven.vercel.app/upComming_details/${id}`).then(data => {
             if(data?.data.acknowledged){
                 const deleteData = manage.filter(man => man._id !== id);
                 setManage(deleteData)

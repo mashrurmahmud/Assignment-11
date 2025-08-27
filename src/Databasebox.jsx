@@ -13,7 +13,7 @@ const Databasebox = ({children}) => {
 
 
     useEffect(()=>{
-        axios.get('http://localhost:3000/manage').then(data => setDatabase(data?.data))
+        axios.get('https://my-backend-server-seven.vercel.app/manage').then(data => setDatabase(data?.data))
 
     },[])
 

@@ -55,7 +55,7 @@ export const router = createBrowserRouter([
       element:<PrivateRoute>
         <JoinDetails></JoinDetails>
       </PrivateRoute>,
-      loader:({params})=>fetch(`http://localhost:3000/joinEvent2/${params.id}`)
+      loader:({params})=>fetch(`https://my-backend-server-seven.vercel.app/joinEvent2/${params.id}`)
 
 
     },
@@ -68,7 +68,7 @@ export const router = createBrowserRouter([
     {
       path:'/upcomming/:email',
       element:<UpComming_events></UpComming_events>,
-      // loader: ({params})=> fetch(`http://localhost:3000/upComming/${params.email}`
+      // loader: ({params})=> fetch(`https://my-backend-server-seven.vercel.app/upComming/${params.email}`
        
       // )
     },
@@ -76,7 +76,7 @@ export const router = createBrowserRouter([
       path:'/upComming_details/:id',
       
       element:<UpComming_details></UpComming_details>,
-      loader:({params})=> fetch(`http://localhost:3000/upComming_details/${params.id}`)
+      loader:({params})=> fetch(`https://my-backend-server-seven.vercel.app/upComming_details/${params.id}`)
      
     
     },
@@ -93,7 +93,7 @@ export const router = createBrowserRouter([
     {
       path:'/updateForm/:id',
       element:<UpdateForm></UpdateForm>,
-      loader:({params})=> fetch(`http://localhost:3000/manage/${params.id}`)
+      loader:({params})=> fetch(`https://my-backend-server-seven.vercel.app/manage/${params.id}`)
        
     
 

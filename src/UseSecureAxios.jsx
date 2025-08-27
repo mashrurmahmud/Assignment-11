@@ -6,7 +6,7 @@ import { Mycontext } from './Layout/AuthProvider/AuthProvider';
 
 
 const axiosInstance = axios.create({
-    baseURL:'http://localhost:3000/'
+    baseURL:'https://my-backend-server-seven.vercel.app/'
 })
 const UseSecureAxios = () => {
     const {user} = use(Mycontext)

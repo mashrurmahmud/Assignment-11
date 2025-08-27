@@ -26,7 +26,7 @@ const UpdateForm = () => {
         }).then((result) => {
         /* Read more about isConfirmed, isDenied below */
         if (result.isConfirmed) {
-             axios.put(`http://localhost:3000/manage/${_id}`,formobject).then(data =>{
+             axios.put(`https://my-backend-server-seven.vercel.app/manage/${_id}`,formobject).then(data =>{
             console.log(data)
             setUpdate(data?.data);
 

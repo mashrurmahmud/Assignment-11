@@ -11,12 +11,12 @@ const JoinEvent = () => {
 
 
     useEffect(()=>{
-        axios.get(`http://localhost:3000/joinEvent/${user?.email}`, {
+        axios.get(`https://my-backend-server-seven.vercel.app/joinEvent/${user?.email}`, {
             headers:{
                 authorization:`Bearer ${user.accessToken}`
             }
         }).then(data => {
-            console.log(data);
+            // console.log(data);
             setJoin(data?.data);
         });
 

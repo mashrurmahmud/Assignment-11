@@ -20,18 +20,18 @@ const UpComming_events = () => {
 
 
     // useEffect(()=>{
-    //     // axios.get(`http://localhost:3000/upcomming/${user.email}}`).then(data =>{
+    //     // axios.get(`https://my-backend-server-seven.vercel.app/upcomming/${user.email}}`).then(data =>{
     //     //     console.log(data);
     //     //     setUpComming(data?.data)
     //     // } )
 
-    //     fetch(`http://localhost:3000/upcomming/${user.email}}`).then(data => {
+    //     fetch(`https://my-backend-server-seven.vercel.app/upcomming/${user.email}}`).then(data => {
     //         setUpComming(data)
         
     // },[user.email]))
 
 +  useEffect(()=>{
-    axios.get(`http://localhost:3000/upcomming/${user?.email}`,{
+    axios.get(`https://my-backend-server-seven.vercel.app/upcomming/${user?.email}`,{
         headers:{
             Authorization:`Bearer ${user?.accessToken
 }`
@@ -82,7 +82,7 @@ const UpComming_events = () => {
    const handleData = (id)=>{
    
 
-    axios.delete(`http://localhost:3000/upComming_details/${id}`).then(data => {
+    axios.delete(`https://my-backend-server-seven.vercel.app/upComming_details/${id}`).then(data => {
         if(data?.data.acknowledged){
             const deletedata = upComming.filter(del => del._id !== id);
             // console.log('not deleted')
